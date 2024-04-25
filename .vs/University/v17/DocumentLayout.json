@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Documents\\Visual Studio 2022\\University\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ACCEFE11-22C3-4A41-AC89-C9391E4AC4EB}|universityApiBackend\\universityApiBackend.csproj|c:\\users\\asus\\documents\\visual studio 2022\\university\\universityapibackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACCEFE11-22C3-4A41-AC89-C9391E4AC4EB}|universityApiBackend\\universityApiBackend.csproj|solutionrelative:universityapibackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACCEFE11-22C3-4A41-AC89-C9391E4AC4EB}|universityApiBackend\\universityApiBackend.csproj|c:\\users\\asus\\documents\\visual studio 2022\\university\\universityapibackend\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACCEFE11-22C3-4A41-AC89-C9391E4AC4EB}|universityApiBackend\\universityApiBackend.csproj|solutionrelative:universityapibackend\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACCEFE11-22C3-4A41-AC89-C9391E4AC4EB}|universityApiBackend\\universityApiBackend.csproj|c:\\users\\asus\\documents\\visual studio 2022\\university\\universityapibackend\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACCEFE11-22C3-4A41-AC89-C9391E4AC4EB}|universityApiBackend\\universityApiBackend.csproj|solutionrelative:universityapibackend\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACCEFE11-22C3-4A41-AC89-C9391E4AC4EB}|universityApiBackend\\universityApiBackend.csproj|c:\\users\\asus\\documents\\visual studio 2022\\university\\universityapibackend\\models\\usertokens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACCEFE11-22C3-4A41-AC89-C9391E4AC4EB}|universityApiBackend\\universityApiBackend.csproj|solutionrelative:universityapibackend\\models\\usertokens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACCEFE11-22C3-4A41-AC89-C9391E4AC4EB}|universityApiBackend\\universityApiBackend.csproj|c:\\users\\asus\\documents\\visual studio 2022\\university\\universityapibackend\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACCEFE11-22C3-4A41-AC89-C9391E4AC4EB}|universityApiBackend\\universityApiBackend.csproj|solutionrelative:universityapibackend\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACCEFE11-22C3-4A41-AC89-C9391E4AC4EB}|universityApiBackend\\universityApiBackend.csproj|c:\\users\\asus\\documents\\visual studio 2022\\university\\universityapibackend\\models\\datamodels\\userlogins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACCEFE11-22C3-4A41-AC89-C9391E4AC4EB}|universityApiBackend\\universityApiBackend.csproj|solutionrelative:universityapibackend\\models\\datamodels\\userlogins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACCEFE11-22C3-4A41-AC89-C9391E4AC4EB}|universityApiBackend\\universityApiBackend.csproj|c:\\users\\asus\\documents\\visual studio 2022\\university\\universityapibackend\\services\\istudentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACCEFE11-22C3-4A41-AC89-C9391E4AC4EB}|universityApiBackend\\universityApiBackend.csproj|solutionrelative:universityapibackend\\services\\istudentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACCEFE11-22C3-4A41-AC89-C9391E4AC4EB}|universityApiBackend\\universityApiBackend.csproj|c:\\users\\asus\\documents\\visual studio 2022\\university\\universityapibackend\\models\\datamodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACCEFE11-22C3-4A41-AC89-C9391E4AC4EB}|universityApiBackend\\universityApiBackend.csproj|solutionrelative:universityapibackend\\models\\datamodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StudentsController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Visual Studio 2022\\University\\universityApiBackend\\Controllers\\StudentsController.cs",
-              "RelativeDocumentMoniker": "universityApiBackend\\Controllers\\StudentsController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\Visual Studio 2022\\University\\universityApiBackend\\Controllers\\StudentsController.cs",
-              "RelativeToolTip": "universityApiBackend\\Controllers\\StudentsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA0AAAA",
+              "Title": "UserTokens.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Visual Studio 2022\\University\\universityApiBackend\\Models\\UserTokens.cs",
+              "RelativeDocumentMoniker": "universityApiBackend\\Models\\UserTokens.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\Visual Studio 2022\\University\\universityApiBackend\\Models\\UserTokens.cs",
+              "RelativeToolTip": "universityApiBackend\\Models\\UserTokens.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T18:05:34.367Z",
+              "WhenOpened": "2024-04-25T22:09:25.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Visual Studio 2022\\University\\universityApiBackend\\Program.cs",
-              "RelativeDocumentMoniker": "universityApiBackend\\Program.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\Visual Studio 2022\\University\\universityApiBackend\\Program.cs",
-              "RelativeToolTip": "universityApiBackend\\Program.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Visual Studio 2022\\University\\universityApiBackend\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "universityApiBackend\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\Visual Studio 2022\\University\\universityApiBackend\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "universityApiBackend\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAYwEgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T18:02:01.017Z",
+              "WhenOpened": "2024-04-25T21:54:13.513Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "StudentService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Visual Studio 2022\\University\\universityApiBackend\\Services\\StudentService.cs",
-              "RelativeDocumentMoniker": "universityApiBackend\\Services\\StudentService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\Visual Studio 2022\\University\\universityApiBackend\\Services\\StudentService.cs",
-              "RelativeToolTip": "universityApiBackend\\Services\\StudentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Title": "UserLogins.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Visual Studio 2022\\University\\universityApiBackend\\Models\\DataModels\\UserLogins.cs",
+              "RelativeDocumentMoniker": "universityApiBackend\\Models\\DataModels\\UserLogins.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\Visual Studio 2022\\University\\universityApiBackend\\Models\\DataModels\\UserLogins.cs",
+              "RelativeToolTip": "universityApiBackend\\Models\\DataModels\\UserLogins.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T18:00:50.959Z",
+              "WhenOpened": "2024-04-25T21:52:32.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IStudentsService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Visual Studio 2022\\University\\universityApiBackend\\Services\\IStudentsService.cs",
-              "RelativeDocumentMoniker": "universityApiBackend\\Services\\IStudentsService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\Visual Studio 2022\\University\\universityApiBackend\\Services\\IStudentsService.cs",
-              "RelativeToolTip": "universityApiBackend\\Services\\IStudentsService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAuAAAA",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Visual Studio 2022\\University\\universityApiBackend\\Models\\DataModels\\User.cs",
+              "RelativeDocumentMoniker": "universityApiBackend\\Models\\DataModels\\User.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\Visual Studio 2022\\University\\universityApiBackend\\Models\\DataModels\\User.cs",
+              "RelativeToolTip": "universityApiBackend\\Models\\DataModels\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T17:59:00.505Z",
+              "WhenOpened": "2024-04-25T21:51:44.185Z",
               "EditorCaption": ""
             }
           ]
