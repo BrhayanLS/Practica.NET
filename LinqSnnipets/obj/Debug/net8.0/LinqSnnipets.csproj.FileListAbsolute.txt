@@ -1,0 +1,12 @@
+C:\Users\ASUS\Documents\Visual Studio 2022\University\LinqSnnipets\bin\Debug\net8.0\LinqSnnipets.deps.json
+C:\Users\ASUS\Documents\Visual Studio 2022\University\LinqSnnipets\bin\Debug\net8.0\LinqSnnipets.dll
+C:\Users\ASUS\Documents\Visual Studio 2022\University\LinqSnnipets\bin\Debug\net8.0\LinqSnnipets.pdb
+C:\Users\ASUS\Documents\Visual Studio 2022\University\LinqSnnipets\obj\Debug\net8.0\LinqSnnipets.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Documents\Visual Studio 2022\University\LinqSnnipets\obj\Debug\net8.0\LinqSnnipets.AssemblyInfoInputs.cache
+C:\Users\ASUS\Documents\Visual Studio 2022\University\LinqSnnipets\obj\Debug\net8.0\LinqSnnipets.AssemblyInfo.cs
+C:\Users\ASUS\Documents\Visual Studio 2022\University\LinqSnnipets\obj\Debug\net8.0\LinqSnnipets.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\Visual Studio 2022\University\LinqSnnipets\obj\Debug\net8.0\LinqSnnipets.sourcelink.json
+C:\Users\ASUS\Documents\Visual Studio 2022\University\LinqSnnipets\obj\Debug\net8.0\LinqSnnipets.dll
+C:\Users\ASUS\Documents\Visual Studio 2022\University\LinqSnnipets\obj\Debug\net8.0\refint\LinqSnnipets.dll
+C:\Users\ASUS\Documents\Visual Studio 2022\University\LinqSnnipets\obj\Debug\net8.0\LinqSnnipets.pdb
+C:\Users\ASUS\Documents\Visual Studio 2022\University\LinqSnnipets\obj\Debug\net8.0\ref\LinqSnnipets.dll
