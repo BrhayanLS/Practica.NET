@@ -1,5 +1,8 @@
 //1. Usings
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
+using System.Security.Cryptography.Xml;
+using universityApiBackend;
 using universityApiBackend.DataAccess;
 using universityApiBackend.Services;
 
@@ -13,7 +16,7 @@ var connectionString = builder.Configuration.GetConnectionString(CONNECTIONNAME)
 builder.Services.AddDbContext<UniversityDBContext>(options => options.UseSqlServer(connectionString));
 
 //7. Add service JWT authentication
-//builder.Services.AddJwtTokenServices(builder.Configuration);
+builder.Services.AddJwtTokenServices(builder.Configuration);
 
 // Add services to the container.
 builder.Services.AddControllers();
@@ -21,10 +24,42 @@ builder.Services.AddControllers();
 //4. Add customer Services
 builder.Services.AddScoped<IStudentsService, StudentService>();
 
+//8. Add policy authorization
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("UserOnlyPolicy", policy => policy.RequireClaim("UserOnly", "User1"));
+});
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-//8. config swagger para tener en cuenta autorizacion
-builder.Services.AddSwaggerGen();
+//9. config swagger para tener en cuenta autorizacion
+builder.Services.AddSwaggerGen(options =>
+{
+    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        //Definimos la seguridad
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "JWT Authorization Headerusing Bearer Scheme"
+    });
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string[] { }
+        }
+    });
+});
 
 //5. Habilitar CORS
 builder.Services.AddCors(options =>

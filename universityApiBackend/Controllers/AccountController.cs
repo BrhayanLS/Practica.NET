@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using universityApiBackend.DataAccess;
 using universityApiBackend.Helpers;
 using universityApiBackend.Models;
 using universityApiBackend.Models.DataModels;
@@ -13,10 +14,12 @@ namespace universityApiBackend.Controllers
     public class AccountController : ControllerBase
     {
         private readonly JwtSettings _jwtSettings;
+        private readonly UniversityDBContext _universityDBContext;
 
-        public AccountController(JwtSettings jwtSettings)
+        public AccountController(JwtSettings jwtSettings, UniversityDBContext universityDBContext)
         {
             this._jwtSettings = jwtSettings;
+            this._universityDBContext = universityDBContext;
         }
 
         private IEnumerable<User> Logins = new List<User>()
@@ -43,8 +46,8 @@ namespace universityApiBackend.Controllers
             try
             {
                 var Token = new UserTokens();
-                var valid = Logins.Any(user => user.Name.Equals(userLogins.UserName, StringComparison.OrdinalIgnoreCase));
-                if (valid)
+                var Valid = Logins.Any(user => user.Name.Equals(userLogins.UserName, StringComparison.OrdinalIgnoreCase));
+                if (Valid)
                 {
                     var user = Logins.FirstOrDefault(user => user.Name.Equals(userLogins.UserName, StringComparison.OrdinalIgnoreCase));
                     Token = JwtHelpers.GenTokenKey(new UserTokens()

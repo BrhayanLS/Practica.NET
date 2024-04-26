@@ -250,3 +250,5 @@ C:\Users\ASUS\Documents\Visual Studio 2022\University\universityApiBackend\obj\D
 C:\Users\ASUS\Documents\Visual Studio 2022\University\universityApiBackend\obj\Debug\net8.0\universityApiBackend.pdb
 C:\Users\ASUS\Documents\Visual Studio 2022\University\universityApiBackend\obj\Debug\net8.0\universityApiBackend.genruntimeconfig.cache
 C:\Users\ASUS\Documents\Visual Studio 2022\University\universityApiBackend\obj\Debug\net8.0\ref\universityApiBackend.dll
+C:\Users\ASUS\Documents\Visual Studio 2022\University\universityApiBackend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ASUS\Documents\Visual Studio 2022\University\universityApiBackend\obj\Debug\net8.0\universityApiBackend.sourcelink.json

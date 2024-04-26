@@ -32,7 +32,7 @@ namespace universityApiBackend.Helpers
         public static IEnumerable<Claim> GetClaims(this UserTokens userAccounts, out Guid Id)
         {
             Id = Guid.NewGuid();
-            return GetClaims(userAccounts, out Id);
+            return GetClaims(userAccounts, Id);
         }
 
         public static UserTokens GenTokenKey(UserTokens model, JwtSettings jwtSettings)
